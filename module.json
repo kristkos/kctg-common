@@ -11,7 +11,7 @@
     
     "Version": "0.0.2",
     "minimumCoreVersion": "0.8.5",
-    "compatibleCoreVersion": "9",
+    "compatibleCoreVersion": "10",
     "packs": [
         {
         "name": "items",
