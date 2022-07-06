@@ -1,7 +1,7 @@
 {
     "name" : "kctg-common",
-    "title": "Kris's Compendium of Trade Goods - Common",
-    "description": "A repository of trade goods to boost your trade routes, campaign and provide options to your players." ,
+    "title": "Kris's Compendium of Trade Goods",
+    "description": "A D&D 5e repository of trade goods to boost your trade routes, campaign and provide options to your players." ,
     "author": {           
         "name" : "kristkos",
         "discord" : "kristkos#5595",
@@ -9,7 +9,7 @@
         "patreon" : "kctg"
     } ,
     
-    "Version": "0.0.2",
+    "Version": "0.0.3",
     "minimumCoreVersion": "0.8.5",
     "compatibleCoreVersion": "10",
     "packs": [
@@ -17,10 +17,20 @@
         "name": "items",
         "label": "Kris's Compendium of Trade Goods - Common",
         "path": "/packs/kriss-compendium-of-trade-goods-common.db",
-        "entity": "Item" }
+        "entity": "Item" },
+        {
+        "name": "items",
+        "label": "Kris's Compendium of Trade Goods - Special Materials",
+        "path": "/packs/kctg-special-materials.db",
+        "entity": "Item" },
+        {
+        "name": "items",
+        "label": "Kris's Compendium of Trade Goods - Magical Items",
+        "path": "/packs/kctg-magic-items.db",
+        "entity": "Item" }       
+
     ],
-    "scripts": ["init.js"],
     "url" : "https://ko-fi.com/krisctg",
-    "manifest": "https://github.com/kristkos/kctg-common/releases/download/common-items/module.json",
-    "download": "https://github.com/kristkos/kctg-common/releases/download/common-items/kctg-common.zip"
+    "manifest": "https://github.com/kristkos/kctg-common/releases/download/common-items.upd1/module.json",
+    "download": "https://github.com/kristkos/kctg-common/releases/download/common-items.upd1/kctg-common.zip"
     }
