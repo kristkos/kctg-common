@@ -4,7 +4,7 @@
     "description": "A repository of trade goods to boost your trade routes, campaign and provide options to your players." ,
     "author": "kristkos",
     "Version": "0.0.2",
-    "minimumCoreVersion": "0.8.4",
+    "minimumCoreVersion": "0.8.5",
     "compatibleCoreVersion": "9",
     "packs": [
         {
@@ -14,7 +14,7 @@
         "entity": "Item" }
     ],
     "scripts": ["init.js"],
-    "url" : "https://www.patreon.com/kctg",
-    "manifest": "",
-    "download": ""
+    "url" : "https://ko-fi.com/krisctg",
+    "manifest": "https://github.com/kristkos/kctg-common/releases/download/common-items/module.json",
+    "download": "https://github.com/kristkos/kctg-common/releases/download/common-items/kctg-common.zip"
     }
