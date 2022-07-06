@@ -1,0 +1,20 @@
+{
+    "name" : "kctg-common",
+    "title": "Kris's Compendium of Trade Goods - Common",
+    "description": "A repository of trade goods to boost your trade routes, campaign and provide options to your players." ,
+    "author": "kristkos",
+    "Version": "0.0.2",
+    "minimumCoreVersion": "0.8.4",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+        "name": "items",
+        "label": "Kris's Compendium of Trade Goods - Common",
+        "path": "/packs/kriss-compendium-of-trade-goods-common.db",
+        "entity": "Item" }
+    ],
+    "scripts": ["init.js"],
+    "url" : "https://www.patreon.com/kctg",
+    "manifest": "",
+    "download": ""
+    }
