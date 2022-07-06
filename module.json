@@ -31,6 +31,6 @@
 
     ],
     "url" : "https://ko-fi.com/krisctg",
-    "manifest": "https://github.com/kristkos/kctg-common/releases/download/common-items.upd1/module.json",
-    "download": "https://github.com/kristkos/kctg-common/releases/download/common-items.upd1/kctg-common.zip"
+    "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.0.3/module.json",
+    "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.3/kctg-common.zip"
     }
