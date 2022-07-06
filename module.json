@@ -2,7 +2,13 @@
     "name" : "kctg-common",
     "title": "Kris's Compendium of Trade Goods - Common",
     "description": "A repository of trade goods to boost your trade routes, campaign and provide options to your players." ,
-    "author": "kristkos",
+    "author": {           
+        "name" : "kristkos",
+        "discord" : "kristkos#5595",
+        "ko-fi" : "krisctg",
+        "patreon" : "kctg"
+    } ,
+    
     "Version": "0.0.2",
     "minimumCoreVersion": "0.8.5",
     "compatibleCoreVersion": "9",
