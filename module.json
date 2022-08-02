@@ -39,6 +39,6 @@
         "module": "KCTG" } 
     ],
     "url" : "https://ko-fi.com/krisctg",
-    "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.3/module.json",
-    "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.3/kctg-common.zip"
+    "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.4/module.json",
+    "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.4/kctg-common.zip"
     }
