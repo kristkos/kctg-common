@@ -1,0 +1,44 @@
+{
+    "name" : "kctg-common",
+    "title": "Kris's Compendium of Trade Goods",
+    "description": "<i>A D&D 5e repository of trade goods to boost worldbuilding resource distribution to flesh out regions, or for political interest.</i><p>*** Buy me a coffee at <a href='https://ko-fi.com/krisctg' title='Kofi'>Ko-fi</a><p>*** Join me on <a href='https://discord.gg/MYgCWdAc9c' title='Discord'>Discord</a>" ,        
+    "authors": [
+		{
+			"name": "kristkos",
+			"url": "https://www.patreon.com/KCTG",
+			"discord": "kristkos#5595"
+		}   ],
+    "author":"kristkos", 
+    "version": "0.5.3",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "media":[
+      {
+        "type":"cover",
+        "link":"https://github.com/kristkos/kctg-common/blob/main/2-1%20logo.png?raw=true"
+      }
+    ]  ,
+    "packs": [
+        {
+        "name": "Common",
+        "label": "Kris's Compendium of Trade Goods - Common",
+        "path": "/packs/kriss-compendium-of-trade-goods-common.db",
+        "entity": "Item",
+        "module": "KCTG" },
+        {
+        "name": "Special",
+        "label": "Kris's Compendium of Trade Goods - Special Materials",
+        "path": "/packs/kctg-special-materials.db",
+        "entity": "Item",
+        "module": "KCTG" },
+        {
+        "name": "Magical",
+        "label": "Kris's Compendium of Trade Goods - Magical Items",
+        "path": "/packs/kctg-magic-items.db",
+        "entity": "Item",
+        "module": "KCTG" } 
+    ],
+    "url" : "https://ko-fi.com/krisctg",
+    "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.4/module.json",
+    "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.4/kctg-common.zip"
+    }
