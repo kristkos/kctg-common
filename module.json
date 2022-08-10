@@ -9,7 +9,7 @@
 			"discord": "kristkos#5595"
 		}   ],
     "author":"kristkos", 
-    "version": "0.5.4",
+    "version": "0.6",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "9",
     "media":[
@@ -39,6 +39,6 @@
         "module": "KCTG" } 
     ],
     "url" : "https://ko-fi.com/krisctg",
-    "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.4/module.json",
-    "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.5.4/kctg-common.zip"
+    "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.0.6/module.json",
+    "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.6/kctg-common.zip"
     }
