@@ -2,7 +2,7 @@
   "id" : "kctg-common",
   "title": "Kris's Compendium of Trade Goods",
   "description": "<i>A D&D 5e repository of trade goods to boost worldbuilding resource distribution to flesh out regions, or for political interest.</i><br>*** Support me on <a href='https://patreon.com/KCTG' title='PATREON'>PATREON</a>***<p>*** Join me on <a href='https://discord.gg/MYgCWdAc9c' title='Discord'>DISCORD</a>***" ,
-  "version": "0.0.7",
+  "version": "0.8.0b",
   "compatibility": {
       "minimum": "10",
       "verified": "10.288",
@@ -13,12 +13,14 @@
     "url": "https://www.patreon.com/KCTG",
     "discord": "https://discord.gg/MYgCWdAc9c"
   }   ], 
-      "media":[
+      "media":
+      [
           {
             "type":"cover",
             "link":"https://github.com/kristkos/kctg-common/blob/main/2-1%20logo.png?raw=true"
-          }],
-  "packs": [
+          }
+      ],
+  "packs":   [
       {
       "name": "Common",
       "label": "Kris's Compendium of Trade Goods - Common",
@@ -26,13 +28,6 @@
       "system": "dnd5e",
       "type": "Item",
       "module": "KCTG" },
-      {
-        "name": "Common",
-        "label": "Kris's Compendium of Trade Goods - Common",
-        "path": "./packs/kriss-compendium-of-trade-goods-common-materials.db",
-        "system": "pf2e",
-        "type": "Item",
-        "module": "KCTG" },
       {
       "name": "Special",
       "label": "Kris's Compendium of Trade Goods - Special Materials",
@@ -46,9 +41,23 @@
       "system": "dnd5e",
       "path": "./packs/kctg-magic-items.db",
       "type": "Item",
-      "module": "KCTG" } 
-  ],
+      "module": "KCTG" }, 
+      {
+      "name": "Common",
+      "label": "Kris's Compendium of Trade Goods - Common",
+      "path": "./packs/kriss-compendium-of-trade-goods-common-materials.db",
+      "system": "pf2e",
+      "type": "Item",
+      "module": "KCTG" }  ],
+
+    "relationships": {
+      "systems": [
+        {"id": "dnd5e"},
+        {"id": "pf2e"}
+      ]
+    },
+
   "url" : "https://www.patreon.com/KCTG",
-  "update": "https://github.com/kristkos/kctg-common/releases/download/0.0.7/module.json",
-  "download": "https://github.com/kristkos/kctg-common/releases/download/0.0.7/kctg-common.zip"
+  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.8.0b/module.json",
+  "download": "https://github.com/kristkos/kctg-common/releases/download/0.8.0b/kctg-common.zip"
   }
