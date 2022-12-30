@@ -1,63 +1,106 @@
 {
-  "id" : "kctg-common",
+  "id": "kctg-common",
   "title": "Kris's Compendium of Trade Goods",
-  "description": "<i>A D&D 5e repository of trade goods to boost worldbuilding resource distribution to flesh out regions, or for political interest.</i><br>*** Support me on <a href='https://patreon.com/KCTG' title='PATREON'>PATREON</a>***<p>*** Join me on <a href='https://discord.gg/MYgCWdAc9c' title='Discord'>DISCORD</a>***" ,
-  "version": "0.8.0b",
+  "description": "<i>A D&amp;D 5e repository of trade goods to boost worldbuilding resource distribution to flesh out regions, or for political interest.</i><br />*** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">PATREON</a>***<p>*** Join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">DISCORD</a>***</p>",
+  "version": "0.10.0",
   "compatibility": {
-      "minimum": "10",
-      "verified": "10.288",
-      "maximum": "10"},
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  },
   "authors": [
-  {
-    "name": "kristkos",
-    "url": "https://www.patreon.com/KCTG",
-    "discord": "https://discord.gg/MYgCWdAc9c"
-  }   ], 
-      "media":
-      [
-          {
-            "type":"cover",
-            "link":"https://github.com/kristkos/kctg-common/blob/main/2-1%20logo.png?raw=true"
-          }
-      ],
-  "packs":   [
-      {
+    {
+      "name": "kristkos",
+      "url": "https://www.patreon.com/KCTG",
+      "discord": "https://discord.gg/MYgCWdAc9c",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
       "name": "Common",
       "label": "Kris's Compendium of Trade Goods - Common",
-      "path": "./packs/kriss-compendium-of-trade-goods-common.db",
+      "path": "packs/kriss-compendium-of-trade-goods-common.db",
       "system": "dnd5e",
       "type": "Item",
-      "module": "KCTG" },
-      {
+      "private": false,
+      "flags": {}
+    },
+    {
       "name": "Special",
       "label": "Kris's Compendium of Trade Goods - Special Materials",
       "system": "dnd5e",
-      "path": "./packs/kctg-special-materials.db",
+      "path": "packs/kctg-special-materials.db",
       "type": "Item",
-      "module": "KCTG" },
-      {
+      "private": false,
+      "flags": {}
+    },
+    {
       "name": "Magical",
       "label": "Kris's Compendium of Trade Goods - Magical Items",
       "system": "dnd5e",
-      "path": "./packs/kctg-magic-items.db",
+      "path": "packs/kctg-magic-items.db",
       "type": "Item",
-      "module": "KCTG" }, 
-      {
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "Merchants",
+      "label": "Kris's Compendium of Trade Goods - Merchants",
+      "system": "dnd5e",
+      "path": "packs/kriss-compendium-of-trade-goods-merchants-dnd5e.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
       "name": "Common",
       "label": "Kris's Compendium of Trade Goods - Common",
-      "path": "./packs/kriss-compendium-of-trade-goods-common-materials.db",
+      "path": "packs/kriss-compendium-of-trade-goods-common-materials.db",
       "system": "pf2e",
       "type": "Item",
-      "module": "KCTG" }  ],
-
-    "relationships": {
-      "systems": [
-        {"id": "dnd5e"},
-        {"id": "pf2e"}
-      ]
+      "private": false,
+      "flags": {}
     },
-
-  "url" : "https://www.patreon.com/KCTG",
-  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.8.0b/module.json",
-  "download": "https://github.com/kristkos/kctg-common/releases/download/0.8.0b/kctg-common.zip"
-  }
+    {
+      "name": "Merchants",
+      "label": "Kris's Compendium of Trade Goods - Merchants",
+      "system": "pf2e",
+      "path": "packs/kriss-compendium-of-trade-goods-merchants-pf2e.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-enhanced-journal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://www.patreon.com/KCTG",
+  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.10.0/module.json",
+  "download": "https://github.com/kristkos/kctg-common/releases/download/0.10.0/kctg-common.zip"
+}
