@@ -1,8 +1,8 @@
 {
   "id": "kctg-common",
   "title": "Kris's Compendium of Trade Goods",
-  "description": "<i>A D&amp;D 5e repository of trade goods to boost worldbuilding resource distribution to flesh out regions, or for political interest.</i><br />*** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">PATREON</a>***<p>*** Join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">DISCORD</a>***</p>",
-  "version": "0.10.0",
+  "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br></br> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***</p>",
+  "version": "0.10.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291",
@@ -11,7 +11,7 @@
   "authors": [
     {
       "name": "kristkos",
-      "url": "https://www.patreon.com/KCTG",
+      "url": "https://github.com/kristkos/kctg-common",
       "discord": "https://discord.gg/MYgCWdAc9c",
       "flags": {}
     }
@@ -34,33 +34,6 @@
       "flags": {}
     },
     {
-      "name": "Special",
-      "label": "Kris's Compendium of Trade Goods - Special Materials",
-      "system": "dnd5e",
-      "path": "packs/kctg-special-materials.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "Magical",
-      "label": "Kris's Compendium of Trade Goods - Magical Items",
-      "system": "dnd5e",
-      "path": "packs/kctg-magic-items.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "Merchants",
-      "label": "Kris's Compendium of Trade Goods - Merchants",
-      "system": "dnd5e",
-      "path": "packs/kriss-compendium-of-trade-goods-merchants-dnd5e.db",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
-    },
-    {
       "name": "Common",
       "label": "Kris's Compendium of Trade Goods - Common",
       "path": "packs/kriss-compendium-of-trade-goods-common-materials.db",
@@ -68,25 +41,9 @@
       "type": "Item",
       "private": false,
       "flags": {}
-    },
-    {
-      "name": "Merchants",
-      "label": "Kris's Compendium of Trade Goods - Merchants",
-      "system": "pf2e",
-      "path": "packs/kriss-compendium-of-trade-goods-merchants-pf2e.db",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
     }
   ],
   "relationships": {
-    "requires": [
-      {
-        "id": "monks-enhanced-journal",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
     "systems": [
       {
         "id": "dnd5e",
@@ -101,6 +58,6 @@
     ]
   },
   "url": "https://www.patreon.com/KCTG",
-  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.10.0/module.json",
-  "download": "https://github.com/kristkos/kctg-common/releases/download/0.10.0/kctg-common.zip"
+  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.10.2/module.json",
+  "download": "https://github.com/kristkos/kctg-common/releases/download/0.10.2/kctg-common.zip"
 }
