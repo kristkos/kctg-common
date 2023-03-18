@@ -1,12 +1,12 @@
 {
   "id": "kctg-common",
   "title": "Kris's Compendium of Trade Goods",
-  "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br></br> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***</p>",
-  "version": "0.10.2",
+  "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
+  "version": "0.11",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291",
-    "maximum": "10"
+    "maximum": "11"
   },
   "authors": [
     {
@@ -15,6 +15,9 @@
       "discord": "https://discord.gg/MYgCWdAc9c",
       "flags": {}
     }
+  ],
+  "scripts": [
+    "scripts/kctg-welcome.js"
   ],
   "media": [
     {
@@ -58,6 +61,6 @@
     ]
   },
   "url": "https://www.patreon.com/KCTG",
-  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.10.2/module.json",
-  "download": "https://github.com/kristkos/kctg-common/releases/download/0.10.2/kctg-common.zip"
+  "manifest": "https://github.com/kristkos/kctg-common/releases/download/0.11/module.json",
+  "download": "https://github.com/kristkos/kctg-common/releases/download/0.11/kctg-common.zip"
 }
